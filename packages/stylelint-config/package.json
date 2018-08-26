@@ -1,0 +1,14 @@
+{
+  "name": "@dsifford/stylelint-config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Derek P Sifford <dereksifford@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-config-recommended-scss": "^3.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.0.0",
+    "stylelint-scss": "^3.0.0"
+  }
+}
