@@ -5,10 +5,10 @@
   "author": "Derek P Sifford <dereksifford@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "stylelint-config-recommended-scss": "^3.2.0"
+    "stylelint-config-recommended-scss": "^3.3.0"
   },
   "peerDependencies": {
-    "stylelint": "^9.0.0",
+    "stylelint": "^10.0.0",
     "stylelint-scss": "^3.0.0"
   }
 }
