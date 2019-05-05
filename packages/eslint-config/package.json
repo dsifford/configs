@@ -4,6 +4,9 @@
   "author": "Derek Sifford <dereksifford@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": ">= 5"
   },
