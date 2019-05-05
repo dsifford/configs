@@ -1,6 +1,6 @@
 {
   "name": "@dsifford/stylelint-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Derek Sifford <dereksifford@gmail.com>",
   "license": "MIT",
   "main": "index.js",
