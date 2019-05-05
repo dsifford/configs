@@ -1,0 +1,10 @@
+{
+  "name": "@dsifford/prettier-config",
+  "version": "0.2.3",
+  "author": "Derek Sifford <dereksifford@gmail.com>",
+  "license": "ISC",
+  "main": "index.json",
+  "publishConfig": {
+    "access": "public"
+  }
+}
