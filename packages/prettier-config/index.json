@@ -19,6 +19,15 @@
             "options": {
                 "tabWidth": 2    
             }
+        },
+        {
+            "files": [
+                "{.,}*.json",
+                ".babelrc"
+            ],
+            "options": {
+                "parser": "json-stringify"
+            }
         }
     ]
 }
