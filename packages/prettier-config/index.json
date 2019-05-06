@@ -13,7 +13,7 @@
         },
         {
             "files": [
-                "*.{json,yaml,yml}",
+                "{.,}*.{json,yaml,yml}",
                 ".babelrc"
             ],
             "options": {
