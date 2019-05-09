@@ -24,6 +24,7 @@ module.exports = {
          * core
          */
         'no-redeclare': 'off',
+        camelcase: ['error', { ignoreDestructuring: true }],
 
         /**
          * @typescript-eslint
