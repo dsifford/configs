@@ -1,6 +1,6 @@
 {
   "name": "@dsifford/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Derek Sifford <dereksifford@gmail.com>",
   "license": "MIT",
   "main": "index.js",
