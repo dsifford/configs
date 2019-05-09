@@ -36,7 +36,10 @@ module.exports = {
         '@typescript-eslint/array-type': ['error', 'array-simple'],
         '@typescript-eslint/camelcase': [
             'error',
-            { ignoreDestructuring: true },
+            {
+                ignoreDestructuring: true,
+                properties: 'never',
+            },
         ],
         '@typescript-eslint/explicit-member-accessibility': [
             'error',
