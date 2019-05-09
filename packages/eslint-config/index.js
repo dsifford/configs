@@ -33,15 +33,19 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
 
-        '@typescript-eslint/promise-function-async': 'error',
-        '@typescript-eslint/unified-signatures': 'error',
         '@typescript-eslint/array-type': ['error', 'array-simple'],
+        '@typescript-eslint/camelcase': [
+            'error',
+            { ignoreDestructuring: true },
+        ],
         '@typescript-eslint/explicit-member-accessibility': [
             'error',
             {
                 accessibility: 'no-public',
             },
         ],
+        '@typescript-eslint/promise-function-async': 'error',
+        '@typescript-eslint/unified-signatures': 'error',
 
         /**
          * jsx-a11y
