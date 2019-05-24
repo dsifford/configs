@@ -23,6 +23,7 @@ module.exports = {
         /**
          * core
          */
+        'no-inner-declarations': 'off',
         'no-redeclare': 'off',
 
         /**
