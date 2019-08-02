@@ -1,6 +1,6 @@
 {
   "name": "@dsifford/prettier-config",
-  "version": "0.4.0",
+  "version": "0.4.14",
   "author": "Derek Sifford <dereksifford@gmail.com>",
   "license": "ISC",
   "main": "index.json",
