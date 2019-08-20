@@ -31,19 +31,13 @@ module.exports = {
         /**
          * @typescript-eslint
          */
+        '@typescript-eslint/array-type': 'off',
         '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-namespace': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
 
-        '@typescript-eslint/array-type': [
-            'error',
-            {
-                default: 'array',
-                readonly: 'array',
-            },
-        ],
         '@typescript-eslint/explicit-member-accessibility': [
             'error',
             {
