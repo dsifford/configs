@@ -37,7 +37,13 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
 
-        '@typescript-eslint/array-type': ['error', 'array-simple'],
+        '@typescript-eslint/array-type': [
+            'error',
+            {
+                default: 'array-simple',
+                readonly: 'array',
+            },
+        ],
         '@typescript-eslint/explicit-member-accessibility': [
             'error',
             {
