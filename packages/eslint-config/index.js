@@ -37,6 +37,7 @@ module.exports = {
         '@typescript-eslint/no-namespace': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/unbound-method': 'off',
 
         '@typescript-eslint/explicit-member-accessibility': [
             'error',
@@ -44,7 +45,6 @@ module.exports = {
                 accessibility: 'no-public',
             },
         ],
-        '@typescript-eslint/promise-function-async': 'error',
         '@typescript-eslint/unified-signatures': 'error',
 
         /**
