@@ -27,6 +27,12 @@ module.exports = {
          */
         'no-inner-declarations': 'off',
         'no-redeclare': 'off',
+        'no-shadow': [
+            'error',
+            {
+                builtinGlobals: true,
+            },
+        ],
 
         /**
          * @typescript-eslint
