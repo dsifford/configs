@@ -8,7 +8,7 @@
     "access": "public"
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^4.0.0"
+    "stylelint-config-recommended-scss": "^4.1.0"
   },
   "peerDependencies": {
     "stylelint": "^12.0.0",
