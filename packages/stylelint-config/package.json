@@ -11,7 +11,7 @@
     "stylelint-config-recommended-scss": "^4.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^12.0.0",
+    "stylelint": "^13.0.0",
     "stylelint-scss": "^3.0.0"
   }
 }
